@@ -1,1 +1,1 @@
-module.exports = require('./lib/express-myconnection.js');
+module.exports = require('./lib/express-mariaconnection.js');
