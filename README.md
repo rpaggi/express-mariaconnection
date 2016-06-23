@@ -29,7 +29,9 @@ Configuration is straightforward and you use it as any other middleware. First p
     // myroute.js
 
     module.exports = function(req, res) {
-    	req.getConnection(function(err,connection){
+        if(err) return res.status(400).json(err);
+        		
+        req.getConnection(function(err,connection){
         connection.query('SHOW TABLES;',[],function(err,result){
     			if(err) return res.status(400).json(err);
 
