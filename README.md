@@ -8,6 +8,7 @@ Connect/Express middleware provides a consistent API for MariaDB connections dur
 ### Usage
 
 Configuration is straightforward and you use it as any other middleware. First param it accepts is a  [mariasql](https://github.com/mscdex/node-mariasql) module, second is a db options hash passed to [mariasql](https://github.com/mscdex/node-mariasql) module when connection or pool are created.
+
     // app.js
     ...
     example

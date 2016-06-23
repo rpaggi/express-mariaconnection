@@ -1,6 +1,6 @@
 {
     "name": "express-mariaconnection",
-    "version": "1.0.4",
+    "version": "0.0.1",
     "description": "Connect/Express middleware that auto provides MariaDB connections.",
     "main": "index.js",
     "directories": {
