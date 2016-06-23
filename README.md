@@ -1,4 +1,4 @@
-express-myconnection
+express-mariaconnection
 ============
 
 It's a fork of [pwalczyszyn/express-myconnection](https://github.com/pwalczyszyn/express-myconnection)
